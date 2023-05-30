@@ -5,7 +5,7 @@ import Building from "./assets/images/building.jpg";
 const Business = () => {
   return (
     <div className="">
-      <div className="container mt-2">
+      <div className="container mt-2 " style={{ borderRadius: '10px', boxShadow: 'red' }}>
         <div className="row containerBorderRadius">
           {/* Start left side */}
           <div className="col-md-4 leftCoustomColor d-flex align-items-center">
@@ -34,10 +34,10 @@ const Business = () => {
           {/* End left side */}
 
           {/* Right side */}
-          <div className="col-md-8">
+          <div className="col-md-7 mx-auto">
        
             <div className="row mt-4 mt-md-0 ">
-              <form className="my-md-2 mb-3 mx-md-4 ">
+              <form className="my-md-2 mb-3">
                 {/*Start upload file area */}
                 <div className="uploadFile ">
                   <label htmlFor="fileInput" className="fileInput">
