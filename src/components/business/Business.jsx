@@ -1,11 +1,11 @@
 import React from "react";
 import "./assets/css/style.css";
-import Building from "./assets/images/building.jpg";
+import Building from "./assets/images/building.png";
 
 const Business = () => {
   return (
     <div className="">
-      <div className="container mt-2 " style={{ borderRadius: '10px', boxShadow: 'red' }}>
+      <div className="container mt-2 bg-light" style={{ borderRadius: '10px', boxShadow: '0 0 4px 0 rgba(0, 0, 0, 0.1)'   }}>
         <div className="row containerBorderRadius">
           {/* Start left side */}
           <div className="col-md-4 leftCoustomColor d-flex align-items-center">

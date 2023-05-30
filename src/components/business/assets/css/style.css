@@ -3,7 +3,8 @@
 }
 /* left side columm color */
 .leftCoustomColor {
-  background-color: #f8fafc;
+  border-radius: 10px;
+  background-color: #e3e4e7;
 }
 /* right side columm color */
 .rightCoustomColor {
